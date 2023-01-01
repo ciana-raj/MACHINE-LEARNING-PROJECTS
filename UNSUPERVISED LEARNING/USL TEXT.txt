@@ -1,0 +1,47 @@
+1.Import Libraries
+
+2.Load the dataset and display top 5 rows.
+HINT: Use pandas function which related to reading the data.
+
+3.Dimension:HINT: Use required library from shape.
+
+4.Check the data types:HINT: use Pandas function to get the data types.
+
+5.Five point summary:HINT: Use pandas method to get five point summary.
+
+6.Missing values:HINT: Use NA method to find the missing values.If missing values are present, Kindly handle them.
+
+7.Duplication:HINT: Use pandas method which is used to find duplication rows in the dataset.
+
+8.Distribution for numeric and categorical variables:HINT:Use distribution plots for numerical and categorical variables.
+
+EX: use Histogram, Dist and KDE plot for numerical variable. And explore Box plot as well.
+EX: Use Bar plot and pie plot to get fair idea about the frequency of classes for each variables.
+
+9.Bivariate Analysis and Multi variate analysis:HINT: Explore related plots for this data to get best inferences out of it.
+EX:•Bivariate Boxplot using numerical and categorical variable.•Heat Map: To check the correlation between the numerical variables.
+•Scatter Plot: To check linearity between the numerical variables.•Pair plot: To get fair idea about distribution of the variables and linearity between the variables.
+•Use more plots which you love to explore to get inference out of it.
+
+10.Encode the variables:
+
+HINT: Use different type of encoding techniques like nominal encoding and Ordinal Encoding.
+
+11.Scale the variables:HINT:Scale the each variable such that mean = 0 and standard deviation = 1.
+Ex:Use standard scaler by using formula (x-mean)/std .ORImport scaling package from Sklearn library. 
+
+
+12.Build the Kmeans model  →(Use other cluster model as well)
+
+HINT:
+Step 1: Declare list as wcss = []
+Step 2: set range and the for loop
+Step 3: Fit the Kmeans model
+Step 4: append the inertia into the list(Wcss)
+
+13.Find the Optimal Cluster:HINT:Use plot method to find the optimal cluster.OR Compute silhouette_score for different number of cluster and find the optimal cluster.OR Use dendogram.
+
+14.Use PCA:HINT: Step 1: Fit the scaled data into pca.Step 2: get explained_variance_ratio_and apply cummualtive sum.Step 3: choose the PCA component.
+
+
+15.Build once again Kmeans or other cluster modelHINT: Follow above points namely 11,12,13
